@@ -10,6 +10,7 @@ LDSCRIPTS = \
 
 # In order of symbol resolution
 MODS = \
+    vectors \
     dump
 
 OBJS = $(addsuffix .o, $(MODS))
