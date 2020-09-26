@@ -176,8 +176,8 @@ systick_handler(void)
     COUNTER++;
 }
 
-void
-reset(void)
+int
+main(void)
 {
     unsigned int c;
 
